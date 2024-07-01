@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca de Frameworks JS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        input, button {
+            padding: 10px;
+            margin: 5px 0;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            background: #f4f4f4;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .alphabet-links a {
+            margin: 0 5px;
+            text-decoration: none;
+            color: blue;
+        }
+        .badge {
+            background-color: #007bff;
+            color: white;
+            padding: 2px 6px;
+            border-radius: 4px;
+            margin-left: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Busca de Frameworks JS</h1>
+    <input type="text" id="searchInput" placeholder="Digite o nome do framework...">
+    <button onclick="searchFrameworks()">Buscar</button>
+    
+    <div class="alphabet-links">
+        <span>Buscar por letra: </span>
+        <a href="#" onclick="searchByLetter('A')">A</a>
+        <a href="#" onclick="searchByLetter('B')">B</a>
+        <a href="#" onclick="searchByLetter('C')">C</a>
+        <a href="#" onclick="searchByLetter('D')">D</a>
+        <a href="#" onclick="searchByLetter('E')">E</a>
+        <a href="#" onclick="searchByLetter('F')">F</a>
+        <a href="#" onclick="searchByLetter('G')">G</a>
+        <a href="#" onclick="searchByLetter('H')">H</a>
+        <a href="#" onclick="searchByLetter('I')">I</a>
+        <a href="#" onclick="searchByLetter('J')">J</a>
+        <a href="#" onclick="searchByLetter('K')">K</a>
+        <a href="#" onclick="searchByLetter('L')">L</a>
+        <a href="#" onclick="searchByLetter('M')">M</a>
+        <a href="#" onclick="searchByLetter('N')">N</a>
+        <a href="#" onclick="searchByLetter('O')">O</a>
+        <a href="#" onclick="searchByLetter('P')">P</a>
+        <a href="#" onclick="searchByLetter('Q')">Q</a>
+        <a href="#" onclick="searchByLetter('R')">R</a>
+        <a href="#" onclick="searchByLetter('S')">S</a>
+        <a href="#" onclick="searchByLetter('T')">T</a>
+        <a href="#" onclick="searchByLetter('U')">U</a>
+        <a href="#" onclick="searchByLetter('V')">V</a>
+        <a href="#" onclick="searchByLetter('W')">W</a>
+        <a href="#" onclick="searchByLetter('X')">X</a>
+        <a href="#" onclick="searchByLetter('Y')">Y</a>
+        <a href="#" onclick="searchByLetter('Z')">Z</a>
+    </div>
+
+    <ul id="frameworkList"></ul>
+    
+    <script src="app.js"></script>
+</body>
+</html>
